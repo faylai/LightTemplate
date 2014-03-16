@@ -13,7 +13,7 @@ var branchTags=[
 				'<em></em><a href="#">${list[i].text}</a>',
 			'</div>',
 			'<ul>',
-			'<li class="loading">加载中...</li>',
+			'<li class="loading">loading...</li>',
 			'</ul>',
 		'</li>',		
 	 '<%}else{%>',
