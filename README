@@ -1,6 +1,15 @@
-this part underconstruction
+# LightTemplate
 
-~~js
+  Jsp-like style template ,writer you template in html just like in jsp .  
+  you also can you ${} epresstion to output string.
+
+
+```
+
+
+## For Example
+
+```js
 
 	   var branchTags=[		  
 		    '<% for(var i=0;i<list.length;i++){%>',
@@ -17,4 +26,11 @@ this part underconstruction
 			    '<li><a href="${list[i].id}">${list[i].text}</a></li>',		
 			'<%}}%>'			
 		].join("");	
-		var branchTpl=$.tmpl(branchTags);
+		var branchTpl=tmpl(branchTags);
+		
+		tmpl({list:[{leaf:true,name:'test',id:'123'}]})
+		
+		
+		
+	 
+```
