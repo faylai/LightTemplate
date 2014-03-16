@@ -2,11 +2,6 @@
 
   Jsp-like style template ,writer you template in html just like in jsp .  
   you also can you ${} epresstion to output string.
-
-
-```
-
-
 ## For Example
 
 ```js
